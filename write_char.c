@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *write_char - writes the character c to stdout
+ *_write_char - writes the character c to stdout
  *@c: the character to print
  *Return: Always 0 (success)
  */
