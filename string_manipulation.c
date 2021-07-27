@@ -7,10 +7,6 @@
  */
 int print_reversed(va_list arg)
 {
-	int len;
-	char *str;
-	char *ptr;
-
 	str = va_arg(arg, char *);
 	if (str == NULL)
 		return (-1);
@@ -21,7 +17,6 @@ int print_reversed(va_list arg)
 		_write_char(ptr[len]);
 	free(ptr);
 	return (len);
-
 }
 
 /**

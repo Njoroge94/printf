@@ -21,6 +21,7 @@ typedef struct convert conver_t;
 /*Main functions*/
 int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
+int _putchar(char c);
 int _write_char(char);
 int print_char(va_list);
 int print_string(va_list);
@@ -31,9 +32,12 @@ int print_binary(va_list);
 int print_reversed(va_list arg);
 int rot13(va_list);
 int unsigned_integer(va_list);
+int print_u(va_list u);
 int print_octal(va_list list);
 int print_hex(va_list list);
 int print_heX(va_list list);
+int print_r(va_list r);
+int print_R(va_list R);
 
 /*Helper functions*/
 unsigned int base_len(unsigned int, int);
