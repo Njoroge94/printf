@@ -17,7 +17,7 @@ int _printf(const char *format, ...)
 		{"b", print_binary},
 		{"r", print_reversed},
 		{"R", rot13},
-		/*{"u", unsigned_integer},*/
+		{"u", print_u},
 		{"o", print_octal},
 		{"x", print_hex},
 		{NULL, NULL}
